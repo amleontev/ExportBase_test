@@ -76,20 +76,10 @@ if(isset($_POST["captcha_code"])){
         <h2 class="card-title pricing-card-title">Meme</h2>
         <ul class="list-unstyled mt-3 mb-4"> </ul>
             <hr>
-
-            Введите код с картинки:
-            <br/>
-            <img style="border: 1px solid gray; background: url('img/bg_capcha.png');" src = "captcha.php" width="120" height="40"/>
-            <br/>
-
-            <form action="validator.php" method="POST">
-                <input type="text" placeholder="capcha">
+            <form action="" method="POST">
                 <input type="text" name="username" placeholder="Ваше имя">
                 <textarea name="comment" cols="30" rows="5" placeholder="Ваш комментарий"></textarea>
-                <input type="submit"name="send" value="Проверить">
-
-
-
+                <input type="submit">
             </form>
         <hr>
             <br>
